@@ -9,6 +9,13 @@
  *   3. Security/error text with no translation         -> Pidgin warning + original text kept
  *   4. Anything else unknown                           -> original text kept
  * Every result must carry exactly the same values as the source, or the original stays.
+ *
+ * Local languages (Ewondo, Duala, Fulfulde...): the page can SHOW a local language
+ * while NkapTalk keeps SPEAKING Pidgin. Each text keeps its Pidgin version (for the voice,
+ * from translateSync) and gets a display version:
+ *   1. native-speaker correction from settings          -> "fix"
+ *   2. Gemini, values masked out, checked like Pidgin    -> "local"
+ *   3. not ready yet / offline                           -> the Pidgin version is shown
  */
 (function () {
   const P = (globalThis.NkapTalk = globalThis.NkapTalk || {});
@@ -25,7 +32,102 @@
   let observer = null;
   let flushTimer = null;
   let initialScanDone = false;
-  const stats = { phrasebook: 0, pattern: 0, ai: 0, warning: 0, untranslated: new Set() };
+  const stats = { phrasebook: 0, pattern: 0, ai: 0, warning: 0, local: 0, fix: 0, lexicon: 0, draft: 0, untranslated: new Set() };
+
+  // ---- display language (the voice is always Pidgin)
+  const L = () => P.localize;
+  let lang = 'pcm';
+  let fixes = new Map(); // corrections from native speakers, for `lang`
+  const localCache = new Map(); // masked source -> masked local text (holds no values)
+  const localPending = new Map(); // masked source -> [{ node, orig, tokens }]
+  let localTimer = null;
+  const isLocal = () => lang !== 'pcm' && !!L() && !!L().LANGUAGES[lang];
+
+  /** Display text in the local language, or null (then Pidgin is shown). */
+  function localSync(core) {
+    if (!isLocal()) return null;
+    const f = L().lookupFix(fixes, core);
+    if (f) return { text: f, how: 'fix' };
+    // reviewed lexicon that ships with the extension: no key, no internet
+    if (P.localbook) {
+      const lx = P.localbook.lookup(core, !!P.env.settings.showDrafts);
+      if (lx) { stats[lx.how] = (stats[lx.how] || 0) + 1; return { text: lx.text, how: lx.how }; }
+    }
+    const { masked, tokens } = V().mask(core);
+    if (localCache.has(masked)) {
+      const t = L().accept(core, masked, localCache.get(masked), tokens);
+      if (t) return { text: t, how: 'local' };
+    }
+    return null;
+  }
+
+  function queueLocal(node, orig, core) {
+    if (!isLocal() || !P.env.online() || !P.env.settings.useGeminiTranslate) return;
+    const { masked, tokens } = V().mask(core);
+    if (localCache.has(masked)) return; // known, but failed the checks: keep Pidgin
+    if (!localPending.has(masked)) localPending.set(masked, []);
+    localPending.get(masked).push({ node, orig, tokens });
+    clearTimeout(localTimer);
+    localTimer = setTimeout(flushLocal, 350);
+  }
+
+  async function flushLocal() {
+    if (!localPending.size || !isLocal()) { localPending.clear(); return; }
+    const forLang = lang;
+    const batch = new Map(localPending);
+    localPending.clear();
+    const items = [...batch.keys()];
+    // reviewed Pidgin of these lines helps Gemini get the meaning right
+    const pidgin = [];
+    for (const [masked, list] of batch) {
+      const r = P.phrasebook.lookup(list[0].orig.trim());
+      if (r && pidgin.length < 40) pidgin.push([masked, V().mask(r.text).masked]);
+    }
+    const res = await P.env.send({ type: 'translate-local', lang: forLang, items, pidgin });
+    if (forLang !== lang) return; // language changed meanwhile
+    if (!res || !res.ok || !Array.isArray(res.translations)) {
+      console.warn('[NkapTalk] local-language translation unavailable:', res && res.error);
+      return;
+    }
+    items.forEach((masked, i) => {
+      const out = res.translations[i];
+      if (typeof out !== 'string') return;
+      localCache.set(masked, out.trim());
+      for (const { node, orig, tokens } of batch.get(masked)) {
+        if (!node.isConnected || originalOf(node) !== orig) continue;
+        const text = L().accept(orig.trim(), masked, out, tokens);
+        if (!text) { console.warn('[NkapTalk] local translation changed a value, kept Pidgin:', masked, '->', out); continue; }
+        stats.local++;
+        if (on) write(node, { orig, out: wrapSpaces(orig, text), how: 'local' });
+      }
+    });
+  }
+
+  async function loadLanguage(code) {
+    lang = code && L() && L().LANGUAGES[code] ? code : 'pcm';
+    if (P.localbook && !isLocal()) await P.localbook.load('pcm');
+    if (P.replybook && !isLocal()) await P.replybook.load('pcm');
+    localCache.clear();
+    localPending.clear();
+    fixes = new Map();
+    if (!isLocal()) return;
+    const key = `fix:${lang}`;
+    const got = await P.env.getLocal({ [key]: '' });
+    fixes = L().parseFixes(got[key]).table;
+    if (P.localbook) await P.localbook.load(lang);
+    if (P.replybook) await P.replybook.load(lang);
+    const res = await P.env.send({ type: 'local-cache', lang });
+    if (res && res.ok && res.cache) for (const [k, v] of Object.entries(res.cache)) if (typeof v === 'string') localCache.set(k, v);
+  }
+
+  /** Switch the display language and redraw the page from its original text. */
+  async function setLanguage(code) {
+    for (const [node, r] of recs) if (node.isConnected && node.nodeValue === r.out) node.nodeValue = r.orig;
+    recs.clear();
+    await loadLanguage(code);
+    if (on) scan();
+    P.env.emit('translate-mode', on);
+  }
 
   function isOurs(el) {
     return !!(el && el.closest && el.closest('#nkaptalk-root'));
@@ -96,9 +198,27 @@
     if (!core) { recs.delete(node); return null; }
     if (!V().hasWords(core) || V().isLikelyName(core)) { recs.delete(node); return { orig: core, how: 'value', node }; }
 
+    // names caught by phrasebook patterns ("Bonjour, Amina") are values: lock them so
+    // they are never sent to Gemini or changed by a translation
+    for (const [re] of P.phrasebook.PATTERNS) {
+      const m = core.match(re);
+      if (m && m[1]) V().addUserValue(m[1]);
+    }
+
+    // local language for the eyes (if chosen and ready); Pidgin stays the voice
+    let shown = false;
+    if (isLocal()) {
+      const loc = localSync(core);
+      if (loc) {
+        if (on) write(node, { orig, out: wrapSpaces(orig, loc.text), how: loc.how });
+        stats[loc.how]++;
+        shown = true;
+      } else if (on) queueLocal(node, orig, core);
+    }
+
     const res = translateSync(core);
     if (res) {
-      if (on) write(node, { orig, out: wrapSpaces(orig, res.text), how: res.how });
+      if (on && !shown) write(node, { orig, out: wrapSpaces(orig, res.text), how: res.how });
       stats[res.how] = (stats[res.how] || 0) + 1;
       return { orig: core, out: res.text, how: res.how, node };
     }
@@ -111,7 +231,7 @@
       scheduleFlush();
     }
     const warn = WARNING_RE.test(core);
-    if (warn && on) {
+    if (warn && on && !shown) {
       // Never leave a warning unexplained: Pidgin prefix + the exact original words.
       write(node, { orig, out: wrapSpaces(orig, `${WARN_PREFIX} ${core}`), how: 'warning' });
       stats.warning++;
@@ -155,7 +275,9 @@
         if (!V().sameValues(orig.trim(), text)) continue; // final guard
         stats.untranslated.delete(orig.trim());
         stats.ai++;
-        if (on) write(node, { orig, out: wrapSpaces(orig, text), how: 'ai' });
+        const r = recs.get(node);
+        const showingLocal = r && (r.how === 'local' || r.how === 'fix') && node.nodeValue === r.out;
+        if (on && !showingLocal) write(node, { orig, out: wrapSpaces(orig, text), how: 'ai' });
         done.push({ orig: orig.trim(), out: text, how: 'ai', node });
       }
     });
@@ -218,7 +340,9 @@
     if (results.length) P.env.emit('new-text', results);
   }
 
-  function start() {
+  async function start() {
+    if (observer) return;
+    await loadLanguage(P.env.settings.pageLanguage);
     if (observer) return;
     document.addEventListener('change', (e) => {
       const t = e.target;
@@ -263,6 +387,9 @@
   P.translator = {
     start, setOn, scan, audit, origText, originalOf, translateSync,
     get on() { return on; },
+    get language() { return lang; },
+    setLanguage,
+    flushLocal,
     get stats() { return stats; },
     isWarning: (t) => WARNING_RE.test(t),
     WARN_PREFIX,

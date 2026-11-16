@@ -1,0 +1,1592 @@
+{
+  "language": "lns",
+  "name": "Lamnso'",
+  "entries": [
+    {
+      "src": "Environnement de test — données fictives, aucune transaction réelle.",
+      "pidgin": "Na test place dis — all di data na fake, no real moni di move.",
+      "out": "Kìkàa ké yù'ri — mìŋgwɛ̀' mì bòoŋ, nkà' yò'sí kɛ̀ kɛɛ̀.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'test/fictional data' in Lamnso'; native verification needed for exact financial UI phrasing."
+    },
+    {
+      "src": "Test environment — fictional data, no real transaction.",
+      "pidgin": "Na test place dis — all di data na fake, no real moni di move.",
+      "out": "Kìkàa ké yù'ri — mìŋgwɛ̀' mì bòoŋ, nkà' yò'sí kɛ̀ kɛɛ̀.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'test/fictional data' in Lamnso'; native verification needed for exact financial UI phrasing."
+    },
+    {
+      "src": "Protocole de test",
+      "pidgin": "Rule dem for di test",
+      "out": "Ntìŋ vé yù'ri",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'rules of testing' as 'ntìŋ vé yù'ri'."
+    },
+    {
+      "src": "Test protocol",
+      "pidgin": "Rule dem for di test",
+      "out": "Ntìŋ vé yù'ri",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'rules of testing' as 'ntìŋ vé yù'ri'."
+    },
+    {
+      "src": "Retour au hackathon",
+      "pidgin": "Go back for hackathon",
+      "out": "Kɛ̀r é hackathon",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'hackathon' as English loanword; verify preposition 'é'."
+    },
+    {
+      "src": "Back to hackathon",
+      "pidgin": "Go back for hackathon",
+      "out": "Kɛ̀r é hackathon",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'hackathon' as English loanword; verify preposition 'é'."
+    },
+    {
+      "src": "Banque en ligne",
+      "pidgin": "Bank for internet",
+      "out": "Bank é internet",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'bank' and 'internet' as code-switched terms."
+    },
+    {
+      "src": "Online banking",
+      "pidgin": "Bank for internet",
+      "out": "Bank é internet",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'bank' and 'internet' as code-switched terms."
+    },
+    {
+      "src": "Connexion sécurisée",
+      "pidgin": "Connection dey safe",
+      "out": "Connection dzé boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'connection'; 'dzé boŋ' expresses 'is safe/good'."
+    },
+    {
+      "src": "Secure connection",
+      "pidgin": "Connection dey safe",
+      "out": "Connection dzé boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'connection'; 'dzé boŋ' expresses 'is safe/good'."
+    },
+    {
+      "src": "{} — environnement de démonstration. Ne saisissez aucune donnée personnelle réelle.",
+      "pidgin": "{1} — na demo place. No put your real personal information here.",
+      "out": "{1} — kìkàa ké yù'ri. Bò' á bii mìŋgwɛ̀' mì wò mì fɔ̀'sí fɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Security/demo warning; verify imperative prohibition 'bò' á bii' with native speaker."
+    },
+    {
+      "src": "{} — demonstration environment. Do not enter real personal data.",
+      "pidgin": "{1} — na demo place. No put your real personal information here.",
+      "out": "{1} — kìkàa ké yù'ri. Bò' á bii mìŋgwɛ̀' mì wò mì fɔ̀'sí fɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Security/demo warning; verify imperative prohibition 'bò' á bii' with native speaker."
+    },
+    {
+      "src": "Solde",
+      "pidgin": "Balance",
+      "out": "Balance",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Balance",
+      "pidgin": "Balance",
+      "out": "Balance",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Frais",
+      "pidgin": "Charge",
+      "out": "Charge",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'charge' per rule 6; verify if 'nkà' vé tɔ̀m' is preferred."
+    },
+    {
+      "src": "Fees",
+      "pidgin": "Charge",
+      "out": "Charge",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'charge' per rule 6; verify if 'nkà' vé tɔ̀m' is preferred."
+    },
+    {
+      "src": "Fee",
+      "pidgin": "Charge",
+      "out": "Charge",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'charge' per rule 6; verify if 'nkà' vé tɔ̀m' is preferred."
+    },
+    {
+      "src": "Bénéficiaire",
+      "pidgin": "Who go collect",
+      "out": "Wìr yo' é wù yì kɔ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'the person who will receive'; check natural phrasing for recipient."
+    },
+    {
+      "src": "Beneficiary",
+      "pidgin": "Who go collect",
+      "out": "Wìr yo' é wù yì kɔ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'the person who will receive'; check natural phrasing for recipient."
+    },
+    {
+      "src": "Récapitulatif",
+      "pidgin": "Check am again",
+      "out": "Yɛ̀n dzàŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated as 'look again/review'."
+    },
+    {
+      "src": "Summary",
+      "pidgin": "Check am again",
+      "out": "Yɛ̀n dzàŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated as 'look again/review'."
+    },
+    {
+      "src": "Confirmation",
+      "pidgin": "Confirm",
+      "out": "Confirm",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Votre compte",
+      "pidgin": "Your account",
+      "out": "Account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Your account",
+      "pidgin": "Your account",
+      "out": "Account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Consultez votre solde et lancez un transfert en toute sécurité.",
+      "pidgin": "Look your balance, and send moni safe safe.",
+      "out": "Yɛ̀n balance wò, bò á tɔ̀m nkà' boŋ-boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify imperative and adverbial 'boŋ-boŋ' (safely)."
+    },
+    {
+      "src": "Check your balance and start a secure transfer.",
+      "pidgin": "Look your balance, and send moni safe safe.",
+      "out": "Yɛ̀n balance wò, bò á tɔ̀m nkà' boŋ-boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify imperative and adverbial 'boŋ-boŋ' (safely)."
+    },
+    {
+      "src": "Solde disponible",
+      "pidgin": "Moni wey dey your account",
+      "out": "Nkà' yo' é yì dzé é account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that is in your account'."
+    },
+    {
+      "src": "Available balance",
+      "pidgin": "Moni wey dey your account",
+      "out": "Nkà' yo' é yì dzé é account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that is in your account'."
+    },
+    {
+      "src": "Numéro de compte : {}",
+      "pidgin": "Account number : {1}",
+      "out": "Number é account : {1}",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'number' and 'account'."
+    },
+    {
+      "src": "Account number : {}",
+      "pidgin": "Account number : {1}",
+      "out": "Number é account : {1}",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'number' and 'account'."
+    },
+    {
+      "src": "Compte courant",
+      "pidgin": "Everyday account",
+      "out": "Current account",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Current account",
+      "pidgin": "Everyday account",
+      "out": "Current account",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Effectuer un transfert",
+      "pidgin": "Send moni",
+      "out": "Tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Make a transfer",
+      "pidgin": "Send moni",
+      "out": "Tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Consulter les frais",
+      "pidgin": "Look di charge",
+      "out": "Yɛ̀n charge",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'charge' as loanword."
+    },
+    {
+      "src": "View fees",
+      "pidgin": "Look di charge",
+      "out": "Yɛ̀n charge",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'charge' as loanword."
+    },
+    {
+      "src": "Transactions récentes",
+      "pidgin": "Moni wey move last time",
+      "out": "Nkà' yo' é yì kɛ̀ɛ̀ é mbvə̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that moved recently'."
+    },
+    {
+      "src": "Recent transactions",
+      "pidgin": "Moni wey move last time",
+      "out": "Nkà' yo' é yì kɛ̀ɛ̀ é mbvə̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that moved recently'."
+    },
+    {
+      "src": "Paiement marchand",
+      "pidgin": "You pay for shop",
+      "out": "Sɔ̀' nkà' é shop",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'shop'; verify verb 'sɔ̀'' (pay)."
+    },
+    {
+      "src": "Merchant payment",
+      "pidgin": "You pay for shop",
+      "out": "Sɔ̀' nkà' é shop",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'shop'; verify verb 'sɔ̀'' (pay)."
+    },
+    {
+      "src": "Salaire reçu",
+      "pidgin": "Salary don enter",
+      "out": "Salary ì dù é ntɛ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'salary'; 'dù é ntɛ̀'' means 'has entered'."
+    },
+    {
+      "src": "Salary received",
+      "pidgin": "Salary don enter",
+      "out": "Salary ì dù é ntɛ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'salary'; 'dù é ntɛ̀'' means 'has entered'."
+    },
+    {
+      "src": "Transfert reçu",
+      "pidgin": "Moni wey dem send you",
+      "out": "Nkà' yo' é vè tɔ̀m wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that they sent you'."
+    },
+    {
+      "src": "Transfer received",
+      "pidgin": "Moni wey dem send you",
+      "out": "Nkà' yo' é vè tɔ̀m wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'money that they sent you'."
+    },
+    {
+      "src": "Facture électricité",
+      "pidgin": "Light bill",
+      "out": "Nkà' é kishɛ̀r",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify if 'kishɛ̀r' (fire/light) or 'light bill' is used in Kumbo."
+    },
+    {
+      "src": "Electricity bill",
+      "pidgin": "Light bill",
+      "out": "Nkà' é kishɛ̀r",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify if 'kishɛ̀r' (fire/light) or 'light bill' is used in Kumbo."
+    },
+    {
+      "src": "Sécurité",
+      "pidgin": "Make you careful",
+      "out": "Kìlɔ̀ŋsí",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'caution/security'; verify exact noun in Lamnso'."
+    },
+    {
+      "src": "Security",
+      "pidgin": "Make you careful",
+      "out": "Kìlɔ̀ŋsí",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'caution/security'; verify exact noun in Lamnso'."
+    },
+    {
+      "src": "Vérifiez toujours le nom et le numéro du bénéficiaire avant de confirmer un transfert.",
+      "pidgin": "Every time, check di name and di number of di pesin wey go collect, before you confirm any transfer.",
+      "out": "Və̀r kìm, yɛ̀n lìn bò number é wìr yo' é wù yì kɔ̀' nkà', làŋ á confirm transfer.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security instruction; verify conjunction 'làŋ á' (before you) with native speaker."
+    },
+    {
+      "src": "Always verify the beneficiary name and number before confirming a transfer.",
+      "pidgin": "Every time, check di name and di number of di pesin wey go collect, before you confirm any transfer.",
+      "out": "Və̀r kìm, yɛ̀n lìn bò number é wìr yo' é wù yì kɔ̀' nkà', làŋ á confirm transfer.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security instruction; verify conjunction 'làŋ á' (before you) with native speaker."
+    },
+    {
+      "src": "Frais de transfert",
+      "pidgin": "Charge for send moni",
+      "out": "Charge vé tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'charge' with Lamnso' 'tɔ̀m nkà'' (send money)."
+    },
+    {
+      "src": "Transfer fees",
+      "pidgin": "Charge for send moni",
+      "out": "Charge vé tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'charge' with Lamnso' 'tɔ̀m nkà'' (send money)."
+    },
+    {
+      "src": "Choisissez le type de transfert et le montant. Les frais sont calculés automatiquement.",
+      "pidgin": "Choose which kind transfer and how much. Di charge go calculate by e self.",
+      "out": "Sɔ̀ŋ kìtù ké transfer bò nkà' yo' é á kùn tɔ̀m. Charge yì kì bɛ̀'tí wìn wò.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify reflexive 'wìn wò' (by itself) in Lamnso'."
+    },
+    {
+      "src": "Choose the transfer type and amount. Fees are calculated automatically.",
+      "pidgin": "Choose which kind transfer and how much. Di charge go calculate by e self.",
+      "out": "Sɔ̀ŋ kìtù ké transfer bò nkà' yo' é á kùn tɔ̀m. Charge yì kì bɛ̀'tí wìn wò.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify reflexive 'wìn wò' (by itself) in Lamnso'."
+    },
+    {
+      "src": "Type d'opération",
+      "pidgin": "Which kind transfer",
+      "out": "Kìtù ké transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'kind of transfer'."
+    },
+    {
+      "src": "Operation type",
+      "pidgin": "Which kind transfer",
+      "out": "Kìtù ké transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'kind of transfer'."
+    },
+    {
+      "src": "Compte {}",
+      "pidgin": "{1} account",
+      "out": "Account {1}",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "{} account",
+      "pidgin": "{1} account",
+      "out": "Account {1}",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Mobile Money",
+      "pidgin": "Mobile Money",
+      "out": "Mobile Money",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Autre banque",
+      "pidgin": "Another bank",
+      "out": "Bank mò'ɔ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify noun class concord for 'mò'ɔ̀n' (another) with loanword 'bank'."
+    },
+    {
+      "src": "Other bank",
+      "pidgin": "Another bank",
+      "out": "Bank mò'ɔ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify noun class concord for 'mò'ɔ̀n' (another) with loanword 'bank'."
+    },
+    {
+      "src": "Transfert instantané et gratuit",
+      "pidgin": "E go reach one time, and e free",
+      "out": "Transfer ì yì dù vìvə̀r, bò ì dzé free",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'instantly' as 'vìvə̀r' (quickly/at once); kept 'free'."
+    },
+    {
+      "src": "Instant, free transfer",
+      "pidgin": "E go reach one time, and e free",
+      "out": "Transfer ì yì dù vìvə̀r, bò ì dzé free",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'instantly' as 'vìvə̀r' (quickly/at once); kept 'free'."
+    },
+    {
+      "src": "Frais de {} (min. {}, max. {})",
+      "pidgin": "Charge na {1} (e no fit go under {2}, e no fit pass {3})",
+      "out": "Charge dzé {1} (ì yò'sí sì é dzə̀m {2}, ì yò'sí tsà' {3})",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Complex comparative/limit construction; must be verified by a native speaker so min/max limits are unmistakable."
+    },
+    {
+      "src": "{} fee (min. {}, max. {})",
+      "pidgin": "Charge na {1} (e no fit go under {2}, e no fit pass {3})",
+      "out": "Charge dzé {1} (ì yò'sí sì é dzə̀m {2}, ì yò'sí tsà' {3})",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Complex comparative/limit construction; must be verified by a native speaker so min/max limits are unmistakable."
+    },
+    {
+      "src": "Montant à envoyer",
+      "pidgin": "How much you wan send",
+      "out": "Nkà' yo' é á kùn tɔ̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Amount to send",
+      "pidgin": "How much you wan send",
+      "out": "Nkà' yo' é á kùn tɔ̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Gratuit",
+      "pidgin": "Free",
+      "out": "Free",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Free",
+      "pidgin": "Free",
+      "out": "Free",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Total à débiter",
+      "pidgin": "Total wey dem go comot for your account",
+      "out": "Total yo' é vè yì tùm é account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Total that they will remove from your account'; verify verb 'tùm' (take out)."
+    },
+    {
+      "src": "Total to debit",
+      "pidgin": "Total wey dem go comot for your account",
+      "out": "Total yo' é vè yì tùm é account wò",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Total that they will remove from your account'; verify verb 'tùm' (take out)."
+    },
+    {
+      "src": "Solde après opération",
+      "pidgin": "Balance after di transfer",
+      "out": "Balance é mbvə̀m transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'balance' and 'transfer' with 'é mbvə̀m' (after)."
+    },
+    {
+      "src": "Balance after transfer",
+      "pidgin": "Balance after di transfer",
+      "out": "Balance é mbvə̀m transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'balance' and 'transfer' with 'é mbvə̀m' (after)."
+    },
+    {
+      "src": "Retour",
+      "pidgin": "Go back",
+      "out": "Kɛ̀r",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Back",
+      "pidgin": "Go back",
+      "out": "Kɛ̀r",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Continuer",
+      "pidgin": "Continue",
+      "out": "Continue",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Continue' for UI button clarity; verify if 'Kɛ̀ɛ̀ é mbòy' is preferred."
+    },
+    {
+      "src": "Continue",
+      "pidgin": "Continue",
+      "out": "Continue",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Continue' for UI button clarity; verify if 'Kɛ̀ɛ̀ é mbòy' is preferred."
+    },
+    {
+      "src": "Une erreur est survenue",
+      "pidgin": "Something no work well",
+      "out": "Kìfà kì mò' kì yò'sí kɛ̀ɛ̀ boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Something did not go well'."
+    },
+    {
+      "src": "An error occurred",
+      "pidgin": "Something no work well",
+      "out": "Kìfà kì mò' kì yò'sí kɛ̀ɛ̀ boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Something did not go well'."
+    },
+    {
+      "src": "Solde insuffisant pour effectuer ce transfert.",
+      "pidgin": "Your moni no reach for dis transfer.",
+      "out": "Nkà' wò yò'sí kù'rí fɛ̀ transfer fɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'kù'rí' (be enough/reach) and demonstrative agreement."
+    },
+    {
+      "src": "Insufficient balance for this transfer.",
+      "pidgin": "Your moni no reach for dis transfer.",
+      "out": "Nkà' wò yò'sí kù'rí fɛ̀ transfer fɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'kù'rí' (be enough/reach) and demonstrative agreement."
+    },
+    {
+      "src": "Le montant doit être supérieur à zéro.",
+      "pidgin": "Di amount must pass zero.",
+      "out": "Nkà' yì làm tsà' zero.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'zero' as loanword to avoid writing digits; verify 'làm tsà'' (must exceed)."
+    },
+    {
+      "src": "The amount must be greater than zero.",
+      "pidgin": "Di amount must pass zero.",
+      "out": "Nkà' yì làm tsà' zero.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'zero' as loanword to avoid writing digits; verify 'làm tsà'' (must exceed)."
+    },
+    {
+      "src": "Vous devez confirmer les informations avant de valider le transfert.",
+      "pidgin": "You must confirm di information first, before di transfer fit go.",
+      "out": "Á làm confirm mìŋgwɛ̀' mìn làŋ transfer ì kɛ̀ɛ̀.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify modal 'làm' (must) and clause ordering."
+    },
+    {
+      "src": "You must confirm the details before validating the transfer.",
+      "pidgin": "You must confirm di information first, before di transfer fit go.",
+      "out": "Á làm confirm mìŋgwɛ̀' mìn làŋ transfer ì kɛ̀ɛ̀.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify modal 'làm' (must) and clause ordering."
+    },
+    {
+      "src": "Renseignez les informations du destinataire. Vérifiez toujours le numéro avant de valider.",
+      "pidgin": "Put di information of di pesin wey go collect. Always check di number before you confirm.",
+      "out": "Bii mìŋgwɛ̀' mì wìr yo' é wù yì kɔ̀' nkà'. Və̀r kìm, yɛ̀n number làŋ á confirm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'bii' (put/enter) in digital form context."
+    },
+    {
+      "src": "Enter the recipient details. Always verify the number before confirming.",
+      "pidgin": "Put di information of di pesin wey go collect. Always check di number before you confirm.",
+      "out": "Bii mìŋgwɛ̀' mì wìr yo' é wù yì kɔ̀' nkà'. Və̀r kìm, yɛ̀n number làŋ á confirm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'bii' (put/enter) in digital form context."
+    },
+    {
+      "src": "Ce bénéficiaire n'a jamais été utilisé sur ce compte. Vérifiez le numéro avant de continuer.",
+      "pidgin": "You never send moni give dis pesin for dis account before. Check di number before you continue.",
+      "out": "Á yo'sí tɔ̀m nkà' fɔ̀ wìr wɛ̀n é account wɛ̀n. Yɛ̀n number làŋ á continue.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Security warning for first-time recipient; verify negation 'yo'sí' (never/not yet)."
+    },
+    {
+      "src": "This beneficiary has never been used on this account. Verify the number before continuing.",
+      "pidgin": "You never send moni give dis pesin for dis account before. Check di number before you continue.",
+      "out": "Á yo'sí tɔ̀m nkà' fɔ̀ wìr wɛ̀n é account wɛ̀n. Yɛ̀n number làŋ á continue.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Security warning for first-time recipient; verify negation 'yo'sí' (never/not yet)."
+    },
+    {
+      "src": "Nom du bénéficiaire",
+      "pidgin": "Name of di pesin wey go collect",
+      "out": "Lìn é wìr yo' é wù yì kɔ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Name of the person who will receive'."
+    },
+    {
+      "src": "Beneficiary name",
+      "pidgin": "Name of di pesin wey go collect",
+      "out": "Lìn é wìr yo' é wù yì kɔ̀'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Name of the person who will receive'."
+    },
+    {
+      "src": "Numéro de téléphone",
+      "pidgin": "Phone number",
+      "out": "Number é phone",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Phone number",
+      "pidgin": "Phone number",
+      "out": "Number é phone",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Motif du transfert",
+      "pidgin": "Why you di send di moni",
+      "out": "Kìfà ké á tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Reason why you send money'."
+    },
+    {
+      "src": "Transfer reason",
+      "pidgin": "Why you di send di moni",
+      "out": "Kìfà ké á tɔ̀m nkà'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Reason why you send money'."
+    },
+    {
+      "src": "Note (optionnel)",
+      "pidgin": "Note (if you want)",
+      "out": "Note (bɛ́ á kùn)",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Note'; 'bɛ́ á kùn' means 'if you want'."
+    },
+    {
+      "src": "Note (optional)",
+      "pidgin": "Note (if you want)",
+      "out": "Note (bɛ́ á kùn)",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Note'; 'bɛ́ á kùn' means 'if you want'."
+    },
+    {
+      "src": "J'ai vérifié le nom et le numéro du bénéficiaire.",
+      "pidgin": "I don check di name and di phone number of di pesin wey go collect.",
+      "out": "M̀ yɛ̀n lìn bò number é phone é wìr yo' é wù yì kɔ̀'.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "First-person confirmation checkbox; verify 'm̀ yɛ̀n' (I have checked/seen)."
+    },
+    {
+      "src": "I have verified the beneficiary name and phone number.",
+      "pidgin": "I don check di name and di phone number of di pesin wey go collect.",
+      "out": "M̀ yɛ̀n lìn bò number é phone é wìr yo' é wù yì kɔ̀'.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "First-person confirmation checkbox; verify 'm̀ yɛ̀n' (I have checked/seen)."
+    },
+    {
+      "src": "Alerte de sécurité",
+      "pidgin": "Security warning",
+      "out": "Security warning",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept English security header to avoid weakening urgency; verify if a Lamnso' warning term is established."
+    },
+    {
+      "src": "Security warning",
+      "pidgin": "Security warning",
+      "out": "Security warning",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept English security header to avoid weakening urgency; verify if a Lamnso' warning term is established."
+    },
+    {
+      "src": "Alerte de sécurité : vérifiez le numéro du bénéficiaire avant de continuer.",
+      "pidgin": "Security warning: check di phone number of di pesin wey go collect before you continue.",
+      "out": "Security warning: yɛ̀n number é phone é wìr yo' é wù yì kɔ̀' làŋ á continue.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Security warning' for clarity; verify rest of sentence with native speaker."
+    },
+    {
+      "src": "Security warning: verify the beneficiary phone number before continuing.",
+      "pidgin": "Security warning: check di phone number of di pesin wey go collect before you continue.",
+      "out": "Security warning: yɛ̀n number é phone é wìr yo' é wù yì kɔ̀' làŋ á continue.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'Security warning' for clarity; verify rest of sentence with native speaker."
+    },
+    {
+      "src": "Vérifiez les informations avant de confirmer le transfert.",
+      "pidgin": "Check all di information before you confirm di transfer.",
+      "out": "Yɛ̀n mìŋgwɛ̀' mìn kìm làŋ á confirm transfer.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify quantifier 'kìm' (all) agreement with class 6 'mìŋgwɛ̀''."
+    },
+    {
+      "src": "Check the details before confirming the transfer.",
+      "pidgin": "Check all di information before you confirm di transfer.",
+      "out": "Yɛ̀n mìŋgwɛ̀' mìn kìm làŋ á confirm transfer.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify quantifier 'kìm' (all) agreement with class 6 'mìŋgwɛ̀''."
+    },
+    {
+      "src": "Montant",
+      "pidgin": "Amount",
+      "out": "Amount",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Amount",
+      "pidgin": "Amount",
+      "out": "Amount",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Total débité",
+      "pidgin": "Total wey dem comot",
+      "out": "Total yo' é vè tùm",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Total that they removed'."
+    },
+    {
+      "src": "Total debited",
+      "pidgin": "Total wey dem comot",
+      "out": "Total yo' é vè tùm",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Total that they removed'."
+    },
+    {
+      "src": "Téléphone",
+      "pidgin": "Phone",
+      "out": "Phone",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Phone",
+      "pidgin": "Phone",
+      "out": "Phone",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Référence",
+      "pidgin": "Reference",
+      "out": "Reference",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Reference",
+      "pidgin": "Reference",
+      "out": "Reference",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Opération",
+      "pidgin": "Kind of transfer",
+      "out": "Kìtù ké transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Kind of transfer'."
+    },
+    {
+      "src": "Operation",
+      "pidgin": "Kind of transfer",
+      "out": "Kìtù ké transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Kind of transfer'."
+    },
+    {
+      "src": "Je confirme que les informations ci-dessus sont correctes.",
+      "pidgin": "I confirm say all di information for up dey correct.",
+      "out": "M̀ confirm ghàn mìŋgwɛ̀' mìn kìm mì dzé boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify complementizer 'ghàn' (that) and 'dzé boŋ' (are correct)."
+    },
+    {
+      "src": "I confirm the information above is correct.",
+      "pidgin": "I confirm say all di information for up dey correct.",
+      "out": "M̀ confirm ghàn mìŋgwɛ̀' mìn kìm mì dzé boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify complementizer 'ghàn' (that) and 'dzé boŋ' (are correct)."
+    },
+    {
+      "src": "Modifier",
+      "pidgin": "Change am",
+      "out": "Sàŋtí",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'sàŋtí' (change/edit) in UI button context."
+    },
+    {
+      "src": "Edit",
+      "pidgin": "Change am",
+      "out": "Sàŋtí",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'sàŋtí' (change/edit) in UI button context."
+    },
+    {
+      "src": "Confirmer le transfert",
+      "pidgin": "Confirm di transfer",
+      "out": "Confirm transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Confirm transfer",
+      "pidgin": "Confirm di transfer",
+      "out": "Confirm transfer",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Transfert effectué",
+      "pidgin": "Transfer don go",
+      "out": "Transfer ì kɛ̀ɛ̀",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Transfer has gone'."
+    },
+    {
+      "src": "Transfer completed",
+      "pidgin": "Transfer don go",
+      "out": "Transfer ì kɛ̀ɛ̀",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Transfer has gone'."
+    },
+    {
+      "src": "Votre transfert a été envoyé avec succès.",
+      "pidgin": "Your transfer don go well.",
+      "out": "Transfer wò ì kɛ̀ɛ̀ boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Your transfer has gone well'."
+    },
+    {
+      "src": "Your transfer has been sent successfully.",
+      "pidgin": "Your transfer don go well.",
+      "out": "Transfer wò ì kɛ̀ɛ̀ boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Your transfer has gone well'."
+    },
+    {
+      "src": "Statut",
+      "pidgin": "Status",
+      "out": "Status",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Status",
+      "pidgin": "Status",
+      "out": "Status",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Succès",
+      "pidgin": "E don work",
+      "out": "Ì kɛ̀ɛ̀ boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'Success / E don work' as 'Ì kɛ̀ɛ̀ boŋ' (It went well)."
+    },
+    {
+      "src": "Success",
+      "pidgin": "E don work",
+      "out": "Ì kɛ̀ɛ̀ boŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'Success / E don work' as 'Ì kɛ̀ɛ̀ boŋ' (It went well)."
+    },
+    {
+      "src": "Nouveau transfert",
+      "pidgin": "Send another one",
+      "out": "Tɔ̀m nkà' dzàŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Send money again'."
+    },
+    {
+      "src": "New transfer",
+      "pidgin": "Send another one",
+      "out": "Tɔ̀m nkà' dzàŋ",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Send money again'."
+    },
+    {
+      "src": "Annuler",
+      "pidgin": "Cancel am",
+      "out": "Cancel",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Cancel",
+      "pidgin": "Cancel am",
+      "out": "Cancel",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Valider",
+      "pidgin": "Confirm",
+      "out": "Confirm",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Validate",
+      "pidgin": "Confirm",
+      "out": "Confirm",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Envoyer",
+      "pidgin": "Send",
+      "out": "Tɔ̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Send",
+      "pidgin": "Send",
+      "out": "Tɔ̀m",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Fermer",
+      "pidgin": "Close",
+      "out": "Kwì'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'kwì'' (close/shut) for closing a digital window/modal."
+    },
+    {
+      "src": "Close",
+      "pidgin": "Close",
+      "out": "Kwì'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify verb 'kwì'' (close/shut) for closing a digital window/modal."
+    },
+    {
+      "src": "Oui",
+      "pidgin": "Yes",
+      "out": "Ɛ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Yes",
+      "pidgin": "Yes",
+      "out": "Ɛ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Non",
+      "pidgin": "No",
+      "out": "Bò'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify standalone 'No' ('Bò'' vs 'Yò'')."
+    },
+    {
+      "src": "No",
+      "pidgin": "No",
+      "out": "Bò'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify standalone 'No' ('Bò'' vs 'Yò'')."
+    },
+    {
+      "src": "Attention",
+      "pidgin": "Take care",
+      "out": "Və̀r kìm",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Translated 'Take care/Pay attention' as 'Və̀r kìm'."
+    },
+    {
+      "src": "Warning",
+      "pidgin": "Warning",
+      "out": "Warning",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Erreur",
+      "pidgin": "Error",
+      "out": "Error",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Error",
+      "pidgin": "Error",
+      "out": "Error",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "Transfert annulé",
+      "pidgin": "Transfer don cancel",
+      "out": "Transfer ì cancel",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'transfer' and 'cancel'."
+    },
+    {
+      "src": "Transfer cancelled",
+      "pidgin": "Transfer don cancel",
+      "out": "Transfer ì cancel",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Code-switched 'transfer' and 'cancel'."
+    },
+    {
+      "src": "Transfert en cours",
+      "pidgin": "Di transfer still di go",
+      "out": "Transfer ì dzé é njì'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Idiomatic 'on the way' ('é njì''); verify with native speaker."
+    },
+    {
+      "src": "Transfer in progress",
+      "pidgin": "Di transfer still di go",
+      "out": "Transfer ì dzé é njì'",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Idiomatic 'on the way' ('é njì''); verify with native speaker."
+    },
+    {
+      "src": "Transaction en cours de traitement.",
+      "pidgin": "Dem still di work on di transaction.",
+      "out": "Vè dzé fɛ̀' é transaction.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'They are working on the transaction'."
+    },
+    {
+      "src": "Transaction being processed.",
+      "pidgin": "Dem still di work on di transaction.",
+      "out": "Vè dzé fɛ̀' é transaction.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'They are working on the transaction'."
+    },
+    {
+      "src": "Ne communiquez jamais votre code PIN.",
+      "pidgin": "No ever give anybody your PIN code.",
+      "out": "Bò' á fɔ̀ PIN code wò fɔ̀ wìr mò' və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning ('Never share your PIN'); verify emphatic 'never' phrasing with native speaker."
+    },
+    {
+      "src": "Never share your PIN code.",
+      "pidgin": "No ever give anybody your PIN code.",
+      "out": "Bò' á fɔ̀ PIN code wò fɔ̀ wìr mò' və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning ('Never share your PIN'); verify emphatic 'never' phrasing with native speaker."
+    },
+    {
+      "src": "Ne partagez jamais votre code OTP.",
+      "pidgin": "No ever give anybody your OTP code.",
+      "out": "Bò' á fɔ̀ OTP code wò fɔ̀ wìr mò' və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning ('Never share your OTP'); verify emphatic 'never' phrasing with native speaker."
+    },
+    {
+      "src": "Never share your OTP code.",
+      "pidgin": "No ever give anybody your OTP code.",
+      "out": "Bò' á fɔ̀ OTP code wò fɔ̀ wìr mò' və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning ('Never share your OTP'); verify emphatic 'never' phrasing with native speaker."
+    },
+    {
+      "src": "Safinum ne vous demandera jamais votre code PIN.",
+      "pidgin": "Safinum no go ever ask you for your PIN code.",
+      "out": "Safinum yò'sí yì bii wò PIN code wò və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning; verify 'yò'sí yì bii' (will never ask) with native speaker."
+    },
+    {
+      "src": "Safinum will never ask for your PIN code.",
+      "pidgin": "Safinum no go ever ask you for your PIN code.",
+      "out": "Safinum yò'sí yì bii wò PIN code wò və̀r kìm.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Critical security warning; verify 'yò'sí yì bii' (will never ask) with native speaker."
+    },
+    {
+      "src": "Numéro de téléphone invalide.",
+      "pidgin": "Dis phone number no correct.",
+      "out": "Number é phone wɛ̀n yò'sí dzé boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'This phone number is not right'."
+    },
+    {
+      "src": "Invalid phone number.",
+      "pidgin": "Dis phone number no correct.",
+      "out": "Number é phone wɛ̀n yò'sí dzé boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'This phone number is not right'."
+    },
+    {
+      "src": "Bénéficiaire introuvable.",
+      "pidgin": "We no see dis pesin wey go collect.",
+      "out": "Və̀r yò'sí yɛ̀n wìr yo' é wù yì kɔ̀' nkà'.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'We did not see the person who will receive'."
+    },
+    {
+      "src": "Beneficiary not found.",
+      "pidgin": "We no see dis pesin wey go collect.",
+      "out": "Və̀r yò'sí yɛ̀n wìr yo' é wù yì kɔ̀' nkà'.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'We did not see the person who will receive'."
+    },
+    {
+      "src": "Plafond journalier atteint.",
+      "pidgin": "You don reach di highest amount for today.",
+      "out": "Á dù é nkà' yo' é ì tsà' kìm é lɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'daily limit reached'; verify 'é lɛ̀n' (today) and 'tsà' kìm' (highest/exceeds all)."
+    },
+    {
+      "src": "Daily limit reached.",
+      "pidgin": "You don reach di highest amount for today.",
+      "out": "Á dù é nkà' yo' é ì tsà' kìm é lɛ̀n.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Approximated 'daily limit reached'; verify 'é lɛ̀n' (today) and 'tsà' kìm' (highest/exceeds all)."
+    },
+    {
+      "src": "Montant maximum dépassé.",
+      "pidgin": "Di amount don pass di maximum.",
+      "out": "Nkà' ì tsà' maximum.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'maximum' as loanword."
+    },
+    {
+      "src": "Maximum amount exceeded.",
+      "pidgin": "Di amount don pass di maximum.",
+      "out": "Nkà' ì tsà' maximum.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'maximum' as loanword."
+    },
+    {
+      "src": "Service temporairement indisponible.",
+      "pidgin": "Di service no dey work for now. Try again small time.",
+      "out": "Service yò'sí dzé fɛ̀' lɛ̀n. Yù'ri dzàŋ é mbvə̀m.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify 'lɛ̀n' (now/today) and 'é mbvə̀m' (later)."
+    },
+    {
+      "src": "Service temporarily unavailable.",
+      "pidgin": "Di service no dey work for now. Try again small time.",
+      "out": "Service yò'sí dzé fɛ̀' lɛ̀n. Yù'ri dzàŋ é mbvə̀m.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Verify 'lɛ̀n' (now/today) and 'é mbvə̀m' (later)."
+    },
+    {
+      "src": "Votre session va expirer.",
+      "pidgin": "Your session go close soon.",
+      "out": "Session wò yì kwì' vìvə̀r.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'session'; 'kwì' vìvə̀r' means 'will close soon'."
+    },
+    {
+      "src": "Your session will expire.",
+      "pidgin": "Your session go close soon.",
+      "out": "Session wò yì kwì' vìvə̀r.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'session'; 'kwì' vìvə̀r' means 'will close soon'."
+    },
+    {
+      "src": "Votre session a expiré. Veuillez vous reconnecter.",
+      "pidgin": "Your session don close. Abeg, connect again.",
+      "out": "Session wò ì kwì'. Connect dzàŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'session' and 'connect'; verify polite imperative equivalent to 'Abeg'."
+    },
+    {
+      "src": "Your session has expired. Please log in again.",
+      "pidgin": "Your session don close. Abeg, connect again.",
+      "out": "Session wò ì kwì'. Connect dzàŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Kept 'session' and 'connect'; verify polite imperative equivalent to 'Abeg'."
+    },
+    {
+      "src": "Veuillez réessayer.",
+      "pidgin": "Abeg, try am again.",
+      "out": "Yù'ri dzàŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Try again'."
+    },
+    {
+      "src": "Please try again.",
+      "pidgin": "Abeg, try am again.",
+      "out": "Yù'ri dzàŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Try again'."
+    },
+    {
+      "src": "Opération réussie.",
+      "pidgin": "E don work.",
+      "out": "Ì kɛ̀ɛ̀ boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'It went well'."
+    },
+    {
+      "src": "Operation successful.",
+      "pidgin": "E don work.",
+      "out": "Ì kɛ̀ɛ̀ boŋ.",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'It went well'."
+    },
+    {
+      "src": "Code de vérification",
+      "pidgin": "Code for check",
+      "out": "Code ké yɛ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Code for checking'."
+    },
+    {
+      "src": "Verification code",
+      "pidgin": "Code for check",
+      "out": "Code ké yɛ̀n",
+      "reviewed": false,
+      "by": "",
+      "sure": false,
+      "note": "Literal: 'Code for checking'."
+    },
+    {
+      "src": "Code PIN",
+      "pidgin": "PIN code",
+      "out": "PIN code",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    },
+    {
+      "src": "PIN code",
+      "pidgin": "PIN code",
+      "out": "PIN code",
+      "reviewed": false,
+      "by": "",
+      "sure": true
+    }
+  ]
+}

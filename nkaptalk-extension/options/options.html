@@ -19,6 +19,9 @@
   button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #FFD100; outline-offset: 2px; }
   #saved { margin-left: 12px; color: #0B7A3B; font-weight: 600; }
   input[type=range] { width: 100%; }
+  textarea { width: 100%; box-sizing: border-box; padding: 10px; border: 1px solid #c4cad3; border-radius: 8px; font: 14px/1.4 ui-monospace, Menlo, Consolas, monospace; }
+  button.secondary { background: #fff; color: #0B7A3B; border: 2px solid #0B7A3B; padding: 8px 14px; font-size: 14px; margin-top: 8px; }
+  #fixErrors { color: #7A3B00; }
 </style>
 </head>
 <body>
@@ -41,8 +44,27 @@
   </fieldset>
 
   <fieldset>
+    <legend>Page language</legend>
+    <p class="note">The page can show Pidgin or a Cameroonian language. <b>NkapTalk always talks in Pidgin</b>, so the voice stays clear and every amount is read correctly.</p>
+    <label for="pageLanguage">Show the page in</label>
+    <select id="pageLanguage"></select>
+    <p class="note" id="langNote"></p>
+    <label for="fixes">Corrections from native speakers <span class="note" id="fixesFor"></span></label>
+    <textarea id="fixes" rows="7" spellcheck="false" placeholder="# One line per text: page text => translation&#10;# Use {} for a value in the page text and {1}, {2}... in the translation&#10;Solde disponible => ...&#10;Numéro de compte : {} => ... {1}"></textarea>
+    <p class="note" id="fixErrors" role="status"></p>
+    <p class="note" id="lexNote" role="status"></p>
+    <label class="check"><input id="showDrafts" type="checkbox"> <span>Show lines no native speaker has checked yet <span class="note">(for testing; off means an unchecked line shows Pidgin instead)</span></span></label>
+    <button id="exportDrafts" type="button" class="secondary">Export Gemini drafts for review</button>
+    <button id="clearCache" type="button" class="secondary">Forget saved Gemini translations for this language</button>
+  </fieldset>
+
+  <fieldset>
     <legend>Page and voice</legend>
-    <label class="check"><input id="autoTranslate" type="checkbox"> <span>Translate the page into Pidgin as soon as it opens</span></label>
+    <label class="check"><input id="autoTranslate" type="checkbox"> <span>Translate the page as soon as it opens</span></label>
+    <label class="check"><input id="useClipVoice" type="checkbox"> <span>Use the recorded voice <span class="note">(real speakers, read from files on this computer)</span></span></label>
+    <label for="voiceLanguage">Speak in</label>
+    <select id="voiceLanguage"></select>
+    <p class="note" id="clipNote" role="status"></p>
     <label for="voiceName">Browser voice</label>
     <select id="voiceName"><option value="">Automatic (device voice first)</option></select>
     <label for="rate">Speaking speed: <span id="rateVal"></span></label>
@@ -50,6 +72,11 @@
   </fieldset>
 
   <button id="save">Save</button><span id="saved" role="status"></span>
+  <script src="../content/values.js"></script>
+  <script src="../content/phrasebook.js"></script>
+  <script src="../content/localize.js"></script>
+  <script src="../content/numerals.js"></script>
+  <script src="../content/clipvoice.js"></script>
   <script src="options.js"></script>
 </body>
 </html>

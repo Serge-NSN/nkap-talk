@@ -4,7 +4,10 @@
  *   translate: interface text with every value replaced by ⟦1⟧, ⟦2⟧... (no amounts, names, phones)
  *   nlu:       the user's own voice or typed words + what NkapTalk just asked (never the screen)
  *   tts:       reply text to speak (only if the user turned on "Gemini voice")
+ *   translate-local: same masked interface text, into a Cameroonian local language (page only)
  */
+importScripts('content/localize.js');
+const LANGS = globalThis.NkapTalk.localize.LANGUAGES;
 const DEFAULTS = {
   apiKey: '', model: 'gemini-2.5-flash', ttsModel: 'gemini-2.5-flash-preview-tts',
   useGeminiNLU: true, useGeminiTranslate: true, useGeminiTTS: false,
@@ -62,6 +65,68 @@ async function translate({ items, glossary, examples }, s) {
   const arr = JSON.parse(textOf(data));
   if (!Array.isArray(arr) || arr.length !== items.length) throw new Error('bad translation shape');
   return arr;
+}
+
+// ---------- Local languages (what the page shows; the voice stays Pidgin) ----------
+
+const CACHE_MAX = 3000; // masked strings per language; they hold no values
+const cacheKey = (lang) => `lt:${lang}`;
+
+async function localCache(lang) {
+  const k = cacheKey(lang);
+  return (await chrome.storage.local.get({ [k]: {} }))[k] || {};
+}
+
+async function saveLocal(lang, add) {
+  const cache = { ...(await localCache(lang)), ...add };
+  const keys = Object.keys(cache);
+  if (keys.length > CACHE_MAX) keys.slice(0, keys.length - CACHE_MAX).forEach((x) => delete cache[x]);
+  await chrome.storage.local.set({ [cacheKey(lang)]: cache });
+}
+
+async function translateLocal({ lang, items, pidgin }, s) {
+  const L = LANGS[lang];
+  if (!L || lang === 'pcm') throw new Error('unknown language');
+  const cache = await localCache(lang);
+  const missing = items.filter((m) => typeof cache[m] !== 'string');
+  if (missing.length) {
+    const prompt = [
+      `You translate the text of a Cameroonian banking app from French or English into ${L.full}, as spoken in ${L.where}.`,
+      'People will use this to manage real money, so accuracy matters more than style.',
+      'Strict rules:',
+      '1. Placeholders like ⟦1⟧ stand for amounts, names, phone numbers, dates and references. Copy every placeholder exactly, once each. Never translate them, never move them into words, never add or remove any.',
+      '2. Never write any number yourself, in digits or in words. All numbers are already inside placeholders.',
+      '3. Keep the exact meaning. Never add or drop information. Keep financial actions exact: send, confirm, cancel, validate, fee, balance, total.',
+      '4. Never soften a warning or security message: "never", "do not", "always" must stay just as strong.',
+      '5. Write in the standard orthography of the language (General Alphabet of Cameroon Languages), with its special letters and tone marks where they are normally written.',
+      '6. If there is no common word for a banking term (account, transfer, PIN, Mobile Money...), keep the French or English term the way speakers really say it. Never invent a word.',
+      '7. Keep brand names as they are: Safinum, Safinum Pay, MTN MoMo, Orange Money, NkapTalk.',
+      '8. Keep it short and close to the original length: these are buttons, labels and messages.',
+      '9. Return only a JSON array of strings, same order and same count as the input.',
+      pidgin && pidgin.length ? `Reviewed Pidgin version of some lines, to help with meaning (source -> Pidgin): ${JSON.stringify(pidgin.slice(0, 40))}` : '',
+      `Input: ${JSON.stringify(missing)}`,
+    ].filter(Boolean).join('\n');
+    const data = await gemini(s.model, {
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: {
+        temperature: 0.1,
+        responseMimeType: 'application/json',
+        responseSchema: { type: 'ARRAY', items: { type: 'STRING' } },
+        ...fastConfig(s.model),
+      },
+    }, s.apiKey);
+    const arr = JSON.parse(textOf(data));
+    if (!Array.isArray(arr) || arr.length !== missing.length) throw new Error('bad translation shape');
+    // only cache answers whose placeholders are intact; the page checks values again
+    const add = {};
+    missing.forEach((m, i) => {
+      const out = typeof arr[i] === 'string' ? arr[i].trim() : '';
+      const ph = (x) => (x.match(/⟦\d+⟧/g) || []).sort().join();
+      if (out && ph(out) === ph(m) && !/\d/.test(out.replace(/⟦\d+⟧/g, ''))) { add[m] = out; cache[m] = out; }
+    });
+    if (Object.keys(add).length) await saveLocal(lang, add);
+  }
+  return items.map((m) => (typeof cache[m] === 'string' ? cache[m] : null));
 }
 
 async function nlu({ text, audio, awaiting, lastQuestion, intents }, s) {
@@ -129,11 +194,17 @@ async function tts({ text }, s) {
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   (async () => {
     const s = await settings();
+    // saved local translations work without a key (offline)
+    if (msg.type === 'local-cache') return { ok: true, cache: await localCache(msg.lang) };
     if (!s.apiKey) return { ok: false, error: 'no-api-key' };
     try {
       if (msg.type === 'translate') {
         if (!s.useGeminiTranslate) return { ok: false, error: 'disabled' };
         return { ok: true, translations: await translate(msg, s) };
+      }
+      if (msg.type === 'translate-local') {
+        if (!s.useGeminiTranslate) return { ok: false, error: 'disabled' };
+        return { ok: true, translations: await translateLocal(msg, s) };
       }
       if (msg.type === 'nlu') {
         if (!s.useGeminiNLU) return { ok: false, error: 'disabled' };

@@ -5,3 +5,9 @@ tests/e2e-final.png
 __pycache__/
 *.zip
 .DS_Store
+# throwaway tone clips from tools/make-test-clips.js (beeps, not speech)
+nkaptalk-extension/audio/*/*.wav
+nkaptalk-extension/audio/*/.tones-not-speech
+# prompts are generated locally by build-lexicon.js / build-replies.js; not committed
+nkaptalk-extension/lexicon/prompts/
+nkaptalk-extension/lexicon/replies/prompts/

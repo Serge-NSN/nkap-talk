@@ -13,7 +13,11 @@
     useGeminiNLU: true, // understand the user's voice with Gemini (audio of the user only)
     useGeminiTranslate: true, // translate NEW unknown text with Gemini (values masked out)
     useGeminiTTS: false, // Gemini voice for replies (sends reply text, which contains values)
-    autoTranslate: true, // translate the page into Pidgin as soon as it loads
+    useClipVoice: true, // play recorded native-speaker Pidgin clips when they exist (offline)
+    autoTranslate: true, // translate the page as soon as it loads
+    pageLanguage: 'pcm', // what the page shows: Pidgin or a local language
+    voiceLanguage: 'pcm', // which recorded voice speaks; falls back to Pidgin per sentence
+    showDrafts: false, // show lexicon lines no native speaker has checked yet
     rate: 0.95,
     voiceName: '',
   };
@@ -32,10 +36,17 @@
   }
 
   if (hasChrome && chrome.storage && chrome.storage.onChanged) {
-    chrome.storage.onChanged.addListener((changes) => {
+    chrome.storage.onChanged.addListener((changes, area) => {
+      if (area === 'local') return P.env.emit('local-store', changes);
       for (const [k, v] of Object.entries(changes)) settings[k] = v.newValue;
       P.env.emit('settings', settings);
     });
+  }
+
+  /** chrome.storage.local (corrections for local languages); empty outside the extension. */
+  async function getLocal(defaults) {
+    if (!(hasChrome && chrome.storage && chrome.storage.local)) return { ...defaults };
+    try { return await chrome.storage.local.get(defaults); } catch (e) { return { ...defaults }; }
   }
 
   function send(msg) {
@@ -58,6 +69,7 @@
     get settings() { return settings; },
     loadSettings,
     send,
+    getLocal,
     online() { return hasChrome && !!settings.apiKey; },
     on(evt, fn) { (listeners[evt] = listeners[evt] || []).push(fn); },
     emit(evt, data) { (listeners[evt] || []).forEach((fn) => { try { fn(data); } catch (e) { console.warn('[NkapTalk]', e); } }); },

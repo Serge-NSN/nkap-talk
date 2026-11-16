@@ -1,0 +1,542 @@
+{
+  "language": "bbj",
+  "name": "Ghomala'",
+  "entries": [
+    {
+      "pidgin": "abeg i fit help you only for your bank matter your balance di charge or to send moni",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "abeg talk again",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "abeg try again",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "account number na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "amount na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "another bank",
+      "out": "Bank pɔ́’",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "balance after go be",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "charge na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "check am well",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "di amount must pass zero",
+      "out": "Mpfə́ nkáp bə nə cə́ zéro.",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "di button dem na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "di last moni wey move",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "di list of moni wey move dey for your account page",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "di pesin wey go collect na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "di phone number na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "dis message dey screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "dis na di page for charge",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "dis na your account page",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "dis page na for di pesin wey go collect di name di phone number and why you di send",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "for dis screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "hmm your moni no go reach for dis one",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "how much you wan send",
+      "out": "Mpfə́ nkáp o kɔ́ŋ təm",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "how you dey",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i be nkaptalk",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i go ask you before i send any moni",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i go help you use dis bank for pidgin",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i go still talk pidgin",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i go tick say all dis information correct and press confirm di transfer",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i never get pidgin for dis one yet na di original",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i never talk anything yet",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no catch am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no hear you well",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no see change am for dis screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no see go back for dis screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no see your balance for dis screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "i no understand",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "if all correct say confirm",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "if no say change am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "if you no wan talk am say skip",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "if you wan change something say change am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "if you wan send am say send am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "keep dis reference",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "kind of transfer",
+      "out": "Mfa’ təm nkáp",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "kind of transfer na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "make i go front",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "make i send di moni",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "make we check am di name na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "mobile money",
+      "out": "Mobile Money",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "moni wey dey your account na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "na correct",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "name for inside now na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "new message for screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "nothing yet",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "off topic",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay di page dey for",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay di page dey for pidgin now",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay i don show di page for di original language",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay i go talk slow",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay i no do am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "okay i no send am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "or tell me another kind transfer safinum account mobile money or another bank",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "phone na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "read screen",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "reference na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "safinum account",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "safinum account mobile money or another bank",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "say go back till you reach am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "something no work well for my side",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "talk am one by one",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "tell me another amount or say go back",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "tell me di correct name or say change am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "tell me di name of di pesin make i put am",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "tell me how much you wan send make i calculate di charge",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "tell me how much you wan send or say continue",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "total wey dem comot na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "total wey dem go comot na",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "transfer don go",
+      "out": "Nkáp gɔ́",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "translate off",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "translate on",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "wetin be di name of di pesin wey go collect",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "wetin be di phone number",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "wetin you wan do",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "which kind transfer you wan do",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "why you di send di moni",
+      "out": "Nə kə́ o təm nkáp",
+      "reviewed": false,
+      "by": "",
+      "sure": true,
+      "note": "(taken from the same line on the bank page)"
+    },
+    {
+      "pidgin": "you fit tell me how much moni dey my account wetin be di charge i wan send 5000 give ngwa paul wetin dey for screen or say am again",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "you fit tell me i wan send moni wetin be di charge or wetin i don spend",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    },
+    {
+      "pidgin": "your balance after go be",
+      "out": "",
+      "reviewed": false,
+      "by": ""
+    }
+  ]
+}

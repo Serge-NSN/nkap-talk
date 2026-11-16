@@ -1,0 +1,1062 @@
+[
+  {
+    "tier": "numbers",
+    "text": "zero",
+    "id": "zero"
+  },
+  {
+    "tier": "numbers",
+    "text": "un",
+    "id": "un"
+  },
+  {
+    "tier": "numbers",
+    "text": "deux",
+    "id": "deux"
+  },
+  {
+    "tier": "numbers",
+    "text": "trois",
+    "id": "trois"
+  },
+  {
+    "tier": "numbers",
+    "text": "quatre",
+    "id": "quatre"
+  },
+  {
+    "tier": "numbers",
+    "text": "cinq",
+    "id": "cinq"
+  },
+  {
+    "tier": "numbers",
+    "text": "six",
+    "id": "six"
+  },
+  {
+    "tier": "numbers",
+    "text": "sept",
+    "id": "sept"
+  },
+  {
+    "tier": "numbers",
+    "text": "huit",
+    "id": "huit"
+  },
+  {
+    "tier": "numbers",
+    "text": "neuf",
+    "id": "neuf"
+  },
+  {
+    "tier": "numbers",
+    "text": "dix",
+    "id": "dix"
+  },
+  {
+    "tier": "numbers",
+    "text": "onze",
+    "id": "onze"
+  },
+  {
+    "tier": "numbers",
+    "text": "douze",
+    "id": "douze"
+  },
+  {
+    "tier": "numbers",
+    "text": "treize",
+    "id": "treize"
+  },
+  {
+    "tier": "numbers",
+    "text": "quatorze",
+    "id": "quatorze"
+  },
+  {
+    "tier": "numbers",
+    "text": "quinze",
+    "id": "quinze"
+  },
+  {
+    "tier": "numbers",
+    "text": "seize",
+    "id": "seize"
+  },
+  {
+    "tier": "numbers",
+    "text": "vingt",
+    "id": "vingt"
+  },
+  {
+    "tier": "numbers",
+    "text": "trente",
+    "id": "trente"
+  },
+  {
+    "tier": "numbers",
+    "text": "quarante",
+    "id": "quarante"
+  },
+  {
+    "tier": "numbers",
+    "text": "cinquante",
+    "id": "cinquante"
+  },
+  {
+    "tier": "numbers",
+    "text": "soixante",
+    "id": "soixante"
+  },
+  {
+    "tier": "numbers",
+    "text": "cent",
+    "id": "cent"
+  },
+  {
+    "tier": "numbers",
+    "text": "mille",
+    "id": "mille"
+  },
+  {
+    "tier": "numbers",
+    "text": "million",
+    "id": "million"
+  },
+  {
+    "tier": "numbers",
+    "text": "milliard",
+    "id": "milliard"
+  },
+  {
+    "tier": "numbers",
+    "text": "et",
+    "id": "et"
+  },
+  {
+    "tier": "numbers",
+    "text": "virgule",
+    "id": "virgule"
+  },
+  {
+    "tier": "numbers",
+    "text": "moins",
+    "id": "moins"
+  },
+  {
+    "tier": "numbers",
+    "text": "plus",
+    "id": "plus"
+  },
+  {
+    "tier": "numbers",
+    "text": "franc",
+    "id": "franc"
+  },
+  {
+    "tier": "numbers",
+    "text": "pour",
+    "id": "pour"
+  },
+  {
+    "tier": "numbers",
+    "text": "a",
+    "id": "a"
+  },
+  {
+    "tier": "numbers",
+    "text": "b",
+    "id": "b"
+  },
+  {
+    "tier": "numbers",
+    "text": "c",
+    "id": "c"
+  },
+  {
+    "tier": "numbers",
+    "text": "d",
+    "id": "d"
+  },
+  {
+    "tier": "numbers",
+    "text": "e",
+    "id": "e"
+  },
+  {
+    "tier": "numbers",
+    "text": "f",
+    "id": "f"
+  },
+  {
+    "tier": "numbers",
+    "text": "g",
+    "id": "g"
+  },
+  {
+    "tier": "numbers",
+    "text": "h",
+    "id": "h"
+  },
+  {
+    "tier": "numbers",
+    "text": "i",
+    "id": "i"
+  },
+  {
+    "tier": "numbers",
+    "text": "j",
+    "id": "j"
+  },
+  {
+    "tier": "numbers",
+    "text": "k",
+    "id": "k"
+  },
+  {
+    "tier": "numbers",
+    "text": "l",
+    "id": "l"
+  },
+  {
+    "tier": "numbers",
+    "text": "m",
+    "id": "m"
+  },
+  {
+    "tier": "numbers",
+    "text": "n",
+    "id": "n"
+  },
+  {
+    "tier": "numbers",
+    "text": "o",
+    "id": "o"
+  },
+  {
+    "tier": "numbers",
+    "text": "p",
+    "id": "p"
+  },
+  {
+    "tier": "numbers",
+    "text": "q",
+    "id": "q"
+  },
+  {
+    "tier": "numbers",
+    "text": "r",
+    "id": "r"
+  },
+  {
+    "tier": "numbers",
+    "text": "s",
+    "id": "s"
+  },
+  {
+    "tier": "numbers",
+    "text": "t",
+    "id": "t"
+  },
+  {
+    "tier": "numbers",
+    "text": "u",
+    "id": "u"
+  },
+  {
+    "tier": "numbers",
+    "text": "v",
+    "id": "v"
+  },
+  {
+    "tier": "numbers",
+    "text": "w",
+    "id": "w"
+  },
+  {
+    "tier": "numbers",
+    "text": "x",
+    "id": "x"
+  },
+  {
+    "tier": "numbers",
+    "text": "y",
+    "id": "y"
+  },
+  {
+    "tier": "numbers",
+    "text": "z",
+    "id": "z"
+  },
+  {
+    "tier": "replies",
+    "text": "abeg i fit help you only for your bank matter your balance di charge or to send moni",
+    "id": "abeg-i-fit-help-you-only-for-your-bank-matter-your-b-ixbjtz"
+  },
+  {
+    "tier": "replies",
+    "text": "abeg talk again",
+    "id": "abeg-talk-again"
+  },
+  {
+    "tier": "replies",
+    "text": "abeg try again",
+    "id": "abeg-try-again"
+  },
+  {
+    "tier": "replies",
+    "text": "account number na",
+    "id": "account-number-na"
+  },
+  {
+    "tier": "replies",
+    "text": "amount na",
+    "id": "amount-na"
+  },
+  {
+    "tier": "replies",
+    "text": "another bank",
+    "id": "another-bank"
+  },
+  {
+    "tier": "replies",
+    "text": "balance after go be",
+    "id": "balance-after-go-be"
+  },
+  {
+    "tier": "replies",
+    "text": "charge na",
+    "id": "charge-na"
+  },
+  {
+    "tier": "replies",
+    "text": "check am well",
+    "id": "check-am-well"
+  },
+  {
+    "tier": "replies",
+    "text": "di amount must pass zero",
+    "id": "di-amount-must-pass-zero"
+  },
+  {
+    "tier": "replies",
+    "text": "di button dem na",
+    "id": "di-button-dem-na"
+  },
+  {
+    "tier": "replies",
+    "text": "di last moni wey move",
+    "id": "di-last-moni-wey-move"
+  },
+  {
+    "tier": "replies",
+    "text": "di list of moni wey move dey for your account page",
+    "id": "di-list-of-moni-wey-move-dey-for-your-account-page"
+  },
+  {
+    "tier": "replies",
+    "text": "di pesin wey go collect na",
+    "id": "di-pesin-wey-go-collect-na"
+  },
+  {
+    "tier": "replies",
+    "text": "di phone number na",
+    "id": "di-phone-number-na"
+  },
+  {
+    "tier": "replies",
+    "text": "dis message dey screen",
+    "id": "dis-message-dey-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "dis na di page for charge",
+    "id": "dis-na-di-page-for-charge"
+  },
+  {
+    "tier": "replies",
+    "text": "dis na your account page",
+    "id": "dis-na-your-account-page"
+  },
+  {
+    "tier": "replies",
+    "text": "dis page na for di pesin wey go collect di name di phone number and why you di send",
+    "id": "dis-page-na-for-di-pesin-wey-go-collect-di-name-di-p-2ak9z0"
+  },
+  {
+    "tier": "replies",
+    "text": "for dis screen",
+    "id": "for-dis-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "hmm your moni no go reach for dis one",
+    "id": "hmm-your-moni-no-go-reach-for-dis-one"
+  },
+  {
+    "tier": "replies",
+    "text": "how much you wan send",
+    "id": "how-much-you-wan-send"
+  },
+  {
+    "tier": "replies",
+    "text": "how you dey",
+    "id": "how-you-dey"
+  },
+  {
+    "tier": "replies",
+    "text": "i be nkaptalk",
+    "id": "i-be-nkaptalk"
+  },
+  {
+    "tier": "replies",
+    "text": "i go ask you before i send any moni",
+    "id": "i-go-ask-you-before-i-send-any-moni"
+  },
+  {
+    "tier": "replies",
+    "text": "i go help you use dis bank for pidgin",
+    "id": "i-go-help-you-use-dis-bank-for-pidgin"
+  },
+  {
+    "tier": "replies",
+    "text": "i go still talk pidgin",
+    "id": "i-go-still-talk-pidgin"
+  },
+  {
+    "tier": "replies",
+    "text": "i go tick say all dis information correct and press confirm di transfer",
+    "id": "i-go-tick-say-all-dis-information-correct-and-press-a3fgsz"
+  },
+  {
+    "tier": "replies",
+    "text": "i never get pidgin for dis one yet na di original",
+    "id": "i-never-get-pidgin-for-dis-one-yet-na-di-original"
+  },
+  {
+    "tier": "replies",
+    "text": "i never talk anything yet",
+    "id": "i-never-talk-anything-yet"
+  },
+  {
+    "tier": "replies",
+    "text": "i no catch am",
+    "id": "i-no-catch-am"
+  },
+  {
+    "tier": "replies",
+    "text": "i no hear you well",
+    "id": "i-no-hear-you-well"
+  },
+  {
+    "tier": "replies",
+    "text": "i no see change am for dis screen",
+    "id": "i-no-see-change-am-for-dis-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "i no see go back for dis screen",
+    "id": "i-no-see-go-back-for-dis-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "i no see your balance for dis screen",
+    "id": "i-no-see-your-balance-for-dis-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "i no understand",
+    "id": "i-no-understand"
+  },
+  {
+    "tier": "replies",
+    "text": "if all correct say confirm",
+    "id": "if-all-correct-say-confirm"
+  },
+  {
+    "tier": "replies",
+    "text": "if no say change am",
+    "id": "if-no-say-change-am"
+  },
+  {
+    "tier": "replies",
+    "text": "if you no wan talk am say skip",
+    "id": "if-you-no-wan-talk-am-say-skip"
+  },
+  {
+    "tier": "replies",
+    "text": "if you wan change something say change am",
+    "id": "if-you-wan-change-something-say-change-am"
+  },
+  {
+    "tier": "replies",
+    "text": "if you wan send am say send am",
+    "id": "if-you-wan-send-am-say-send-am"
+  },
+  {
+    "tier": "replies",
+    "text": "keep dis reference",
+    "id": "keep-dis-reference"
+  },
+  {
+    "tier": "replies",
+    "text": "kind of transfer",
+    "id": "kind-of-transfer"
+  },
+  {
+    "tier": "replies",
+    "text": "kind of transfer na",
+    "id": "kind-of-transfer-na"
+  },
+  {
+    "tier": "replies",
+    "text": "make i go front",
+    "id": "make-i-go-front"
+  },
+  {
+    "tier": "replies",
+    "text": "make i send di moni",
+    "id": "make-i-send-di-moni"
+  },
+  {
+    "tier": "replies",
+    "text": "make we check am di name na",
+    "id": "make-we-check-am-di-name-na"
+  },
+  {
+    "tier": "replies",
+    "text": "mobile money",
+    "id": "mobile-money"
+  },
+  {
+    "tier": "replies",
+    "text": "moni wey dey your account na",
+    "id": "moni-wey-dey-your-account-na"
+  },
+  {
+    "tier": "replies",
+    "text": "na correct",
+    "id": "na-correct"
+  },
+  {
+    "tier": "replies",
+    "text": "name for inside now na",
+    "id": "name-for-inside-now-na"
+  },
+  {
+    "tier": "replies",
+    "text": "new message for screen",
+    "id": "new-message-for-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "nothing yet",
+    "id": "nothing-yet"
+  },
+  {
+    "tier": "replies",
+    "text": "off topic",
+    "id": "off-topic"
+  },
+  {
+    "tier": "replies",
+    "text": "okay di page dey for",
+    "id": "okay-di-page-dey-for"
+  },
+  {
+    "tier": "replies",
+    "text": "okay di page dey for pidgin now",
+    "id": "okay-di-page-dey-for-pidgin-now"
+  },
+  {
+    "tier": "replies",
+    "text": "okay i don show di page for di original language",
+    "id": "okay-i-don-show-di-page-for-di-original-language"
+  },
+  {
+    "tier": "replies",
+    "text": "okay i go talk slow",
+    "id": "okay-i-go-talk-slow"
+  },
+  {
+    "tier": "replies",
+    "text": "okay i no do am",
+    "id": "okay-i-no-do-am"
+  },
+  {
+    "tier": "replies",
+    "text": "okay i no send am",
+    "id": "okay-i-no-send-am"
+  },
+  {
+    "tier": "replies",
+    "text": "or tell me another kind transfer safinum account mobile money or another bank",
+    "id": "or-tell-me-another-kind-transfer-safinum-account-mob-jtxupd"
+  },
+  {
+    "tier": "replies",
+    "text": "phone na",
+    "id": "phone-na"
+  },
+  {
+    "tier": "replies",
+    "text": "read screen",
+    "id": "read-screen"
+  },
+  {
+    "tier": "replies",
+    "text": "reference na",
+    "id": "reference-na"
+  },
+  {
+    "tier": "replies",
+    "text": "safinum account",
+    "id": "safinum-account"
+  },
+  {
+    "tier": "replies",
+    "text": "safinum account mobile money or another bank",
+    "id": "safinum-account-mobile-money-or-another-bank"
+  },
+  {
+    "tier": "replies",
+    "text": "say go back till you reach am",
+    "id": "say-go-back-till-you-reach-am"
+  },
+  {
+    "tier": "replies",
+    "text": "something no work well for my side",
+    "id": "something-no-work-well-for-my-side"
+  },
+  {
+    "tier": "replies",
+    "text": "talk am one by one",
+    "id": "talk-am-one-by-one"
+  },
+  {
+    "tier": "replies",
+    "text": "tell me another amount or say go back",
+    "id": "tell-me-another-amount-or-say-go-back"
+  },
+  {
+    "tier": "replies",
+    "text": "tell me di correct name or say change am",
+    "id": "tell-me-di-correct-name-or-say-change-am"
+  },
+  {
+    "tier": "replies",
+    "text": "tell me di name of di pesin make i put am",
+    "id": "tell-me-di-name-of-di-pesin-make-i-put-am"
+  },
+  {
+    "tier": "replies",
+    "text": "tell me how much you wan send make i calculate di charge",
+    "id": "tell-me-how-much-you-wan-send-make-i-calculate-di-charge"
+  },
+  {
+    "tier": "replies",
+    "text": "tell me how much you wan send or say continue",
+    "id": "tell-me-how-much-you-wan-send-or-say-continue"
+  },
+  {
+    "tier": "replies",
+    "text": "total wey dem comot na",
+    "id": "total-wey-dem-comot-na"
+  },
+  {
+    "tier": "replies",
+    "text": "total wey dem go comot na",
+    "id": "total-wey-dem-go-comot-na"
+  },
+  {
+    "tier": "replies",
+    "text": "transfer don go",
+    "id": "transfer-don-go"
+  },
+  {
+    "tier": "replies",
+    "text": "translate off",
+    "id": "translate-off"
+  },
+  {
+    "tier": "replies",
+    "text": "translate on",
+    "id": "translate-on"
+  },
+  {
+    "tier": "replies",
+    "text": "wetin be di name of di pesin wey go collect",
+    "id": "wetin-be-di-name-of-di-pesin-wey-go-collect"
+  },
+  {
+    "tier": "replies",
+    "text": "wetin be di phone number",
+    "id": "wetin-be-di-phone-number"
+  },
+  {
+    "tier": "replies",
+    "text": "wetin you wan do",
+    "id": "wetin-you-wan-do"
+  },
+  {
+    "tier": "replies",
+    "text": "which kind transfer you wan do",
+    "id": "which-kind-transfer-you-wan-do"
+  },
+  {
+    "tier": "replies",
+    "text": "why you di send di moni",
+    "id": "why-you-di-send-di-moni"
+  },
+  {
+    "tier": "replies",
+    "text": "you fit tell me how much moni dey my account wetin be di charge i wan send 5000 give ngwa paul wetin dey for screen or say am again",
+    "id": "you-fit-tell-me-how-much-moni-dey-my-account-wetin-b-8f1egi"
+  },
+  {
+    "tier": "replies",
+    "text": "you fit tell me i wan send moni wetin be di charge or wetin i don spend",
+    "id": "you-fit-tell-me-i-wan-send-moni-wetin-be-di-charge-o-174l4lt"
+  },
+  {
+    "tier": "replies",
+    "text": "your balance after go be",
+    "id": "your-balance-after-go-be"
+  },
+  {
+    "tier": "page",
+    "text": "abeg try am again",
+    "id": "abeg-try-am-again"
+  },
+  {
+    "tier": "page",
+    "text": "account number",
+    "id": "account-number"
+  },
+  {
+    "tier": "page",
+    "text": "balance after di transfer",
+    "id": "balance-after-di-transfer"
+  },
+  {
+    "tier": "page",
+    "text": "bank for internet",
+    "id": "bank-for-internet"
+  },
+  {
+    "tier": "page",
+    "text": "cancel am",
+    "id": "cancel-am"
+  },
+  {
+    "tier": "page",
+    "text": "change am",
+    "id": "change-am"
+  },
+  {
+    "tier": "page",
+    "text": "charge for send moni",
+    "id": "charge-for-send-moni"
+  },
+  {
+    "tier": "page",
+    "text": "charge na e no fit go under e no fit pass",
+    "id": "charge-na-e-no-fit-go-under-e-no-fit-pass"
+  },
+  {
+    "tier": "page",
+    "text": "check all di information before you confirm di transfer",
+    "id": "check-all-di-information-before-you-confirm-di-transfer"
+  },
+  {
+    "tier": "page",
+    "text": "check am again",
+    "id": "check-am-again"
+  },
+  {
+    "tier": "page",
+    "text": "choose which kind transfer and how much di charge go calculate by e self",
+    "id": "choose-which-kind-transfer-and-how-much-di-charge-go-8zl5ty"
+  },
+  {
+    "tier": "page",
+    "text": "code for check",
+    "id": "code-for-check"
+  },
+  {
+    "tier": "page",
+    "text": "confirm di transfer",
+    "id": "confirm-di-transfer"
+  },
+  {
+    "tier": "page",
+    "text": "connection dey safe",
+    "id": "connection-dey-safe"
+  },
+  {
+    "tier": "page",
+    "text": "dem still di work on di transaction",
+    "id": "dem-still-di-work-on-di-transaction"
+  },
+  {
+    "tier": "page",
+    "text": "di amount don pass di maximum",
+    "id": "di-amount-don-pass-di-maximum"
+  },
+  {
+    "tier": "page",
+    "text": "di service no dey work for now try again small time",
+    "id": "di-service-no-dey-work-for-now-try-again-small-time"
+  },
+  {
+    "tier": "page",
+    "text": "di transfer still di go",
+    "id": "di-transfer-still-di-go"
+  },
+  {
+    "tier": "page",
+    "text": "dis phone number no correct",
+    "id": "dis-phone-number-no-correct"
+  },
+  {
+    "tier": "page",
+    "text": "e don work",
+    "id": "e-don-work"
+  },
+  {
+    "tier": "page",
+    "text": "e go reach one time and e free",
+    "id": "e-go-reach-one-time-and-e-free"
+  },
+  {
+    "tier": "page",
+    "text": "every time check di name and di number of di pesin wey go collect before you confirm any transfer",
+    "id": "every-time-check-di-name-and-di-number-of-di-pesin-w-7maocv"
+  },
+  {
+    "tier": "page",
+    "text": "everyday account",
+    "id": "everyday-account"
+  },
+  {
+    "tier": "page",
+    "text": "go back",
+    "id": "go-back"
+  },
+  {
+    "tier": "page",
+    "text": "go back for hackathon",
+    "id": "go-back-for-hackathon"
+  },
+  {
+    "tier": "page",
+    "text": "i confirm say all di information for up dey correct",
+    "id": "i-confirm-say-all-di-information-for-up-dey-correct"
+  },
+  {
+    "tier": "page",
+    "text": "i don check di name and di phone number of di pesin wey go collect",
+    "id": "i-don-check-di-name-and-di-phone-number-of-di-pesin-a8y1d4"
+  },
+  {
+    "tier": "page",
+    "text": "light bill",
+    "id": "light-bill"
+  },
+  {
+    "tier": "page",
+    "text": "look di charge",
+    "id": "look-di-charge"
+  },
+  {
+    "tier": "page",
+    "text": "look your balance and send moni safe safe",
+    "id": "look-your-balance-and-send-moni-safe-safe"
+  },
+  {
+    "tier": "page",
+    "text": "make you careful",
+    "id": "make-you-careful"
+  },
+  {
+    "tier": "page",
+    "text": "moni wey dem send you",
+    "id": "moni-wey-dem-send-you"
+  },
+  {
+    "tier": "page",
+    "text": "moni wey dey your account",
+    "id": "moni-wey-dey-your-account"
+  },
+  {
+    "tier": "page",
+    "text": "moni wey move last time",
+    "id": "moni-wey-move-last-time"
+  },
+  {
+    "tier": "page",
+    "text": "na demo place no put your real personal information here",
+    "id": "na-demo-place-no-put-your-real-personal-information-here"
+  },
+  {
+    "tier": "page",
+    "text": "na test place dis all di data na fake no real moni di move",
+    "id": "na-test-place-dis-all-di-data-na-fake-no-real-moni-di-move"
+  },
+  {
+    "tier": "page",
+    "text": "name of di pesin wey go collect",
+    "id": "name-of-di-pesin-wey-go-collect"
+  },
+  {
+    "tier": "page",
+    "text": "no ever give anybody your otp code",
+    "id": "no-ever-give-anybody-your-otp-code"
+  },
+  {
+    "tier": "page",
+    "text": "no ever give anybody your pin code",
+    "id": "no-ever-give-anybody-your-pin-code"
+  },
+  {
+    "tier": "page",
+    "text": "note if you want",
+    "id": "note-if-you-want"
+  },
+  {
+    "tier": "page",
+    "text": "phone number",
+    "id": "phone-number"
+  },
+  {
+    "tier": "page",
+    "text": "pin code",
+    "id": "pin-code"
+  },
+  {
+    "tier": "page",
+    "text": "put di information of di pesin wey go collect always check di number before you confirm",
+    "id": "put-di-information-of-di-pesin-wey-go-collect-always-13ockt3"
+  },
+  {
+    "tier": "page",
+    "text": "rule dem for di test",
+    "id": "rule-dem-for-di-test"
+  },
+  {
+    "tier": "page",
+    "text": "safinum no go ever ask you for your pin code",
+    "id": "safinum-no-go-ever-ask-you-for-your-pin-code"
+  },
+  {
+    "tier": "page",
+    "text": "salary don enter",
+    "id": "salary-don-enter"
+  },
+  {
+    "tier": "page",
+    "text": "security warning",
+    "id": "security-warning"
+  },
+  {
+    "tier": "page",
+    "text": "security warning check di phone number of di pesin wey go collect before you continue",
+    "id": "security-warning-check-di-phone-number-of-di-pesin-w-11l2zfm"
+  },
+  {
+    "tier": "page",
+    "text": "send another one",
+    "id": "send-another-one"
+  },
+  {
+    "tier": "page",
+    "text": "send moni",
+    "id": "send-moni"
+  },
+  {
+    "tier": "page",
+    "text": "something no work well",
+    "id": "something-no-work-well"
+  },
+  {
+    "tier": "page",
+    "text": "take care",
+    "id": "take-care"
+  },
+  {
+    "tier": "page",
+    "text": "total wey dem comot",
+    "id": "total-wey-dem-comot"
+  },
+  {
+    "tier": "page",
+    "text": "total wey dem go comot for your account",
+    "id": "total-wey-dem-go-comot-for-your-account"
+  },
+  {
+    "tier": "page",
+    "text": "transfer don cancel",
+    "id": "transfer-don-cancel"
+  },
+  {
+    "tier": "page",
+    "text": "we no see dis pesin wey go collect",
+    "id": "we-no-see-dis-pesin-wey-go-collect"
+  },
+  {
+    "tier": "page",
+    "text": "which kind transfer",
+    "id": "which-kind-transfer"
+  },
+  {
+    "tier": "page",
+    "text": "who go collect",
+    "id": "who-go-collect"
+  },
+  {
+    "tier": "page",
+    "text": "you don reach di highest amount for today",
+    "id": "you-don-reach-di-highest-amount-for-today"
+  },
+  {
+    "tier": "page",
+    "text": "you must confirm di information first before di transfer fit go",
+    "id": "you-must-confirm-di-information-first-before-di-tran-k52ep2"
+  },
+  {
+    "tier": "page",
+    "text": "you never send moni give dis pesin for dis account before check di number before you continue",
+    "id": "you-never-send-moni-give-dis-pesin-for-dis-account-b-1kwy22l"
+  },
+  {
+    "tier": "page",
+    "text": "you pay for shop",
+    "id": "you-pay-for-shop"
+  },
+  {
+    "tier": "page",
+    "text": "your account",
+    "id": "your-account"
+  },
+  {
+    "tier": "page",
+    "text": "your moni no reach for dis transfer",
+    "id": "your-moni-no-reach-for-dis-transfer"
+  },
+  {
+    "tier": "page",
+    "text": "your session don close abeg connect again",
+    "id": "your-session-don-close-abeg-connect-again"
+  },
+  {
+    "tier": "page",
+    "text": "your session go close soon",
+    "id": "your-session-go-close-soon"
+  },
+  {
+    "tier": "page",
+    "text": "your transfer don go well",
+    "id": "your-transfer-don-go-well"
+  }
+]
